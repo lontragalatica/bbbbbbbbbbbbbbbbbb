@@ -1,0 +1,130 @@
+
+h1{
+    background-color: rgba(39, 89, 95, 0.545);
+padding: 5px;
+    }
+nav{
+    position: absolute;
+    top: 15%;
+    left: 70%;
+}
+
+nav a{
+top: 50%;
+text-decoration: none;
+}
+
+nav li{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+display: inline-block;
+margin: 0 0 0 50px;
+
+}
+
+.caixa {
+    position: relative;
+    width: 100%;
+    margin-block:unset;
+        }
+
+
+.servicos li {
+    margin: 40px;
+    display: inline-block;
+    position:center;
+    border-color: black;
+    border-style: groove;
+    border:solid;
+    border-radius: 6px;
+    text-align: center;
+
+}
+
+.servicos{
+text-align: center;
+}
+
+footer{
+background-color: rgba(39, 89, 95, 0.545)
+
+}
+
+form{
+    margin:7%
+
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin:0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: rgb(67, 120, 233);
+    transform: scale(1.1);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: rgba(202, 202, 39, 0.644);
+    font-weight: bold;
+}
+
+td, th {
+    border: 2px solid rgb(4, 49, 4);
+    padding: 8px 15px;
+}
+
+/*css da página inicial*/
+
+.imagem{ 
+    width: 100%;
+    height: 500px;
+    
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 3em;
+    margin: 0 0 1em;
+    clear:left;
+
+}
+
+.texto, .contato{
+    margin: 0 0 1em;
+}
+
+.texto p, .contato p{
+    margin: 0 0 1em;
+}
+.imagem-principal{
+    float:left;
+    margin:0 0 30px 0;
+}

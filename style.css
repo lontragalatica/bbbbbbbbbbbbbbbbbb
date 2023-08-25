@@ -1,0 +1,35 @@
+h1 {
+   text-align:center ;
+   background-color: rgb(1, 6, 20);
+}
+body{
+   font-size:x-large;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: rgb(210, 199, 231);
+}
+.imagem{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-left-style: double;
+   border-top-style:groove;
+   border-right: double;
+   border-width:groove 30px;
+   border-color: brown;
+   border-radius: 20px;
+}
+.contatos{
+   background-color: rgb(115, 149, 187);
+   width:50%;
+   border-radius: 5px;
+   margin: auto;
+   text-align: center;
+}
+.texto{
+      background-color: rgb(145, 187, 187);
+      width:50%;
+      border-radius: 15px;
+      margin: auto;
+      text-align: center;
+   }
+ 
